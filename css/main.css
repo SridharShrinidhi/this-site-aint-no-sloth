@@ -1,0 +1,37 @@
+html {
+  font-family: Georgia, serif;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  color: #fff;
+  text-shadow: .1em .05em .1em rgba(0, 0, 0, .8);
+  padding-left: 10px;
+  padding-top: 18px;
+}
+
+a {
+  color: #000;
+}
+
+figcaption {
+  font-family: Georgia, serif;
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    background-image: url("../images/sloth-bg.svg");
+    background-color: #bea586;
+    background-size: 48px;
+  }
+
+  main {
+    background-color: white;
+  }
+
+}
